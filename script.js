@@ -2,10 +2,10 @@
 const button = document.getElementById('pressme')
 
 // Function that runs when the button is clicked
-function onclick() {
+function onclick () {
   // Show "Hello, WOrld" message
-  alert("Hello, World!")
+  alert('Hello, World!')
 }
 
 // Add event listener to button
-button.addEventListener("click", onclick)
+button.addEventListener('click', onclick)
